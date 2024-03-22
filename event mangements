@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Event Management System</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+        }
+        .header {
+            background-color: #4CAF50;
+            color: white;
+            text-align: center;
+            padding: 20px;
+        }
+        .container {
+            margin: 50px;
+        }
+        .event-card {
+            background-color: #f2f2f2;
+            border: 1px solid #ddd;
+            padding: 20px;
+            margin-bottom: 20px;
+            border-radius: 5px;
+        }
+        .event-card h2 {
+            margin-top: 0;
+        }
+        .event-card button {
+            background-color: #4CAF50;
+            color: white;
+            padding: 10px 20px;
+            border: none;
+            cursor: pointer;
+            width: 100%;
+            margin-top: 10px;
+        }
+    </style>
+</head>
+<body>
+    <div class="header">
+        <h1>Event Management System</h1>
+    </div>
+    <div class="container">
+        <div class="event-card">
+            <h2>Event 1: Seminar</h2>
+            <p>Date: 12th January 2024</p>
+            <p>Time: 10:00 AM</p>
+            <p>Venue: Auditorium</p>
+            <button>Register</button>
+        </div>
+        <div class="event-card">
+            <h2>Event 2:Workshops</h2>
+            <p>Date:1st Feb 2024</p>
+            <p>Time:11.00 Am</p>
+            <p>Venue:Near 12th Block</p>
+            <button>Register</button>
+            </div>
+        <div class="event-card">
+            <h2>Event3:Cultural event</h2>
+            <p>Date:14 Feb 2024</p>
+            <p>Time:2.00 Pm</p>
+            <p>Venue:Boys Ground</p>
+            <button>Register</button>
+        </div>
+        <div class="'event-card">
+            <h2>Event 4:Sports</h2>
+            <p>Date:1 may 2024</p>
+            <p>Time:9.00Am</p>
+            <p>venue:Near play Ground</p>
+            <button>Register</button>
+        </div>
+    </body>
+    </html>
